@@ -1,3 +1,24 @@
+# Image Transfer Tool
+
+👀 This tool is designed to facilitate image sharing and archiving for testing engineers.
+
+With compatibility across numerous devices, how can we streamline the process of repeatedly logging in? With just one click, this tool automatically creates a folder for archiving and stores relevant screenshots. No more need to log in to different messaging apps like WeChat or QQ to transfer images!
+
+Design acceptance often encounters issues like cropped images not reflecting the original design. This tool preserves the original images without compression or cropping, enabling designers to accurately compare UI interfaces without compromising image quality.
+
+Bug reviews sometimes face the problem of missing images. But fear not! Images transferred using this tool are saved long-term and won't be lost during project iterations. This provides a solid foundation for bug review, allowing testing engineers to easily access previous screenshots for issue identification and verification.
+
+Is your video too large, taking forever to transfer? This tool also supports video transfer.
+
+## Usage
+
+1. Unzip the installation package.
+2. Open the "upload-file" folder.
+3. Locate and open the "main.exe" file.
+4. Set your desired port, or use the default port, and click "Start Service".
+5. Scan the QR code using your phone. For iPhone users, you can use the camera app to scan; for Android users, you can use a browser to scan. Please ensure that your phone is connected to the company's Wi-Fi. This will enable the transmission of original images, preserving the exact dimensions of the screenshots.
+6. After scanning the QR code, the interface will appear as shown below. Click the "Select Multiple Files" button to choose the images you want to upload. Once the selection is complete, click the "Start Upload" button, and the images will be uploaded to the "recfiles" directory within the "upload-file" folder.
+
 # 图片传输工具
 
 👀 这个工具会大大方便测试工程师备案和传输图片。
